@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+tr:hover{
+  background-color: rgba(158, 171, 182, 0.418);
+ 
+}
+.urlItem:hover{
+  transform: scale(1.2);
+  height: 230px;
+}
+.pik{
+  background-image: url('https://d3m9l0v76dty0.cloudfront.net/system/logos/5447/original/49d36c8ba5f2bb567b123c0aac8ecb8f.png');
+  background-size: 100%;
+  width: 1400px;
+  height: 320px;
+  border: 5px solid black;
+}
+.pik1{
+  background-image: url('https://goldtop.co.il/upload_files/201523.PNG');
+  background-size: 100%;
+  width:500px;
+  height: 370px;
+}
+.twoPik{
+  display: flex;
+}
+.ss{
+  border: 3px solid black;
+  border-radius: 12px;
+  background-color:rgba(158, 171, 182, 0.418);
+  width: 500px;
+}
+.LP{
+  background-image: url('https://www.galilole.org.il/wp-content/uploads/2020/06/%D7%90%D7%9C.jpg');
+  background-size: 100%;
+  width: 70px;
+  height: 57px;
+  
+}
+.top{
+  display: flex;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
