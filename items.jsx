@@ -70,7 +70,7 @@ class Item extends Component {
     }
     render() { 
         return <React.Fragment>
-           <div class="top"><div class="LP"></div><h1>מחשבים LP</h1></div>
+           <div class="top"><div class="LP"></div><h1>מחשבים</h1></div>
             <table class="table table-dark table-striped">
             <thead><tr><th>Row Number</th><th>Product name</th> <th>Category</th> <th>Number in stock</th> <th>Price</th><th>Product image</th> <th>Liked</th> <th>Sum</th> <th>Up</th> <th>Down</th><th>Order</th></tr></thead>
             {this.state.products.map(obj=> (obj._id-1<this.state.end && this.state.start<=obj._id-1)?this.row(obj):"")/*Rune on the entire array of objects found in TT*/}
